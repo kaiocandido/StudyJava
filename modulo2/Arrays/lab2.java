@@ -13,5 +13,19 @@ o comprimento do array como parâmetro final;
 package modulo2.Arrays;
 
 public class lab2 {
+    public static void main(String[] args) {
 
+        int numbersArr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        if (numbersArr.length > 0) {
+            int soma = 0;
+            for (int i = 0; i < numbersArr.length; i++) {
+                soma += numbersArr[i];
+            }
+            int media = soma / numbersArr.length;
+            System.out.println("A media é:" + media + "Sendo a soma: " + soma);
+        } else {
+            System.out.println("“Entre  com  valores  válidos para as idades”");
+        }
+    }
 }
