@@ -1,0 +1,25 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package modulo2.Arrays;
+
+public class arrays1 {
+   public arrays1() {
+   }
+
+   public static void main(String[] var0) {
+      int[] var1 = new int[]{10, 20, 30, 40, 50};
+
+      for(int var2 = 0; var2 < var1.length; ++var2) {
+         System.out.println("Número " + (var2 + 1) + ": " + var1[var2]);
+      }
+
+      double[] var4 = new double[5];
+      int[] var5 = new int[10];
+      String[] var6 = new String[]{"João", "Maria", "José", "Ana", "Pedro"};
+      int[] var10000 = new int[]{1, 2, 3, 4, 5};
+
+      for(int var8 = 0; var8 < var6.length; ++var8) {
+         System.out.println(var6[var8]);
+      }
+
+   }
+}
